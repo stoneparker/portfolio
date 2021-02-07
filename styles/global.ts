@@ -24,9 +24,15 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.colors.background};
   }
 
+  h2 {
+    font: 700 1.8rem 'Montserrat', sans-serif;
+    color: ${({ theme }) => theme.colors.text};
+    margin-bottom: 70px;
+  }
+
   @media (max-width: 900px) {
     html {
-      font-size: 28px;
+      font-size: 26px;
     }
   }
 `;

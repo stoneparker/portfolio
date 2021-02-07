@@ -20,7 +20,6 @@ const Header: React.FC = () => {
           </ul>
         </nav>
 
-
         <div className="texts">
           <p>Hi, I’m</p>
           <h1>Vitória Lopes</h1>

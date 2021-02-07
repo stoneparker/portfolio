@@ -34,7 +34,7 @@ export const Container = styled.div`
   }
 
   main .texts {
-    max-width: 80%;
+    max-width: 90%;
     margin-left: auto;
     color: ${({ theme }) => theme.colors.background};
     text-align: right;
@@ -54,7 +54,6 @@ export const Container = styled.div`
     main {
       background-image: url(${banner});
       backdrop-filter: grayscale(100%);
-      -webkit-backdrop-filter: grayscale(100%);
       width: 100vw;
       padding: 40px;
     }
