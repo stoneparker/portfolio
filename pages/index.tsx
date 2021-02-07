@@ -1,15 +1,15 @@
-import Head from 'next/head';
+import Header from '../components/header';
+import Projects from '../components/projects';
+import About from '../components/about';
+import Contacts from '../components/contacts';
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Home Page</title>
-      </Head>
-
-      <main>
-        <h1>Hello World</h1>
-      </main>
-    </div>
+    <>
+      <Header />
+      <Projects />
+      <About />
+      <Contacts />
+    </>
   );
 }

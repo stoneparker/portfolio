@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   * {
@@ -11,6 +11,11 @@ export default createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
-    font: 400 16px Roboto, sans-serif;
+    font: 400 10px 'Share Tech Mono', monospace;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1 {
+    font: 700 80px 'Montserrat', sans-serif;
   }
 `;

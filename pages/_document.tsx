@@ -33,9 +33,13 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-
+          <title>Vitória Lopes 💜</title>
           <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            href="https://fonts.gstatic.com"
+            rel="preconnect"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Share+Tech+Mono&display=swap"
             rel="stylesheet"
           />
         </Head>
