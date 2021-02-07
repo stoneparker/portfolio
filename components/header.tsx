@@ -1,14 +1,36 @@
-import { Container, FiArrowDownS } from '../styles/components/header';
+import { Container, Banner, FiArrowDownS } from '../styles/components/header';
+import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 
 const Header: React.FC = () => {
   return (
     <Container>
-      <div>
-        <h1>Hi, I'm <span>Vitória Lopes</span></h1>
-        <h2>web developer and aspiring UI/UX designer</h2>
-      </div>
+      <Banner />
+      <main>
+        <nav>
+          <ul>
+            <li>
+              <AiFillLinkedin size={35} />
+            </li>
+            <li>
+              <AiFillGithub size={35} />
+            </li>
+            <li>
+              <AiOutlineMail size={35} />
+            </li>
+          </ul>
+        </nav>
 
-      <FiArrowDownS size={30} />
+
+        <div className="texts">
+          <p>Hi, I’m</p>
+          <h1>Vitória Lopes</h1>
+          <p>Web developer and aspiring UI/UX designer based in São Paulo, Brazil.</p>
+        </div>
+
+        <footer>
+          <FiArrowDownS size={50} />
+        </footer>
+      </main>
     </Container>
   )
 }

@@ -16,6 +16,7 @@ export default createGlobalStyle`
   }
 
   h1 {
-    font: 700 80px 'Montserrat', sans-serif;
+    font: 700 90px 'Montserrat', sans-serif;
+    color: ${({ theme }) => theme.colors.background};
   }
 `;
