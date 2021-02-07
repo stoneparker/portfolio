@@ -32,16 +32,19 @@ export const Container = styled.div`
   }
 `;
 
-export const UlItem = styled.a`
+export const UlItem = styled.li`
   background-color: ${({ color }) => color};
   width: 90px;
   height: 90px;
   margin: 0 10px;
   cursor: pointer;
-  color: ${({ theme }) => theme.colors.text};
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  a {
+    color: ${({ theme }) => theme.colors.text};
+  }
 `
