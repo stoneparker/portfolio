@@ -30,32 +30,61 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-  }
-
-  main nav ul li {
     color: ${({ theme }) => theme.colors.background};
   }
 
   main .texts {
     max-width: 80%;
     margin-left: auto;
+    color: ${({ theme }) => theme.colors.background};
+    text-align: right;
   }
 
   main .texts h1 {
-    text-align: right;
     margin: 30px 0 30px auto;
     line-height: 85px;
-  }
-
-  main .texts p {
-    color: ${({ theme }) => theme.colors.background};
-    font-size: 35px;
-    text-align: right;
   }
 
   main footer {
     display: flex;
     justify-content: center;
+  }
+
+  @media (max-width: 900px) {
+    main {
+      background-image: url(${banner});
+      backdrop-filter: grayscale(100%);
+      -webkit-backdrop-filter: grayscale(100%);
+      width: 100vw;
+      padding: 40px;
+    }
+
+    main * {
+      filter: blur(0);
+    }
+
+    main nav {
+      width: 35%;
+    }
+
+    main nav ul {
+      color: ${({ theme }) => theme.colors.text};
+    }
+
+    main .texts {
+      color: ${({ theme }) => theme.colors.text};
+      margin: 0;
+      text-align: left;
+      max-width: 100vw;
+    }
+
+    main h1 {
+      color: ${({ theme }) => theme.colors.text};
+    }
+
+    main footer {
+      background-color: ${({ theme }) => theme.colors.text};
+    }
   }
 `;
 
@@ -70,4 +99,8 @@ export const Banner = styled.div`
   width: 50%;
   height: 100vh;
   background-size: cover;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 `;

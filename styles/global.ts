@@ -8,15 +8,25 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    font-size: 35px;
+  }
+
   body {
     background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
-    font: 400 10px 'Share Tech Mono', monospace;
+    font: 400 1rem 'Share Tech Mono', monospace;
     -webkit-font-smoothing: antialiased;
   }
 
   h1 {
-    font: 700 90px 'Montserrat', sans-serif;
+    font: 700 2.5rem 'Montserrat', sans-serif;
     color: ${({ theme }) => theme.colors.background};
+  }
+
+  @media (max-width: 900px) {
+    html {
+      font-size: 28px;
+    }
   }
 `;
