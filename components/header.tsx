@@ -9,13 +9,19 @@ const Header: React.FC = () => {
         <nav>
           <ul>
             <li>
-              <AiFillLinkedin size={35} />
+              <a href="https://www.linkedin.com/in/vitorialopesdiogo/" target="_blank">
+                <AiFillLinkedin size={35} />
+              </a>
             </li>
             <li>
-              <AiFillGithub size={35} />
+              <a href="https://github.com/stoneparker" target="_blank">
+                <AiFillGithub size={35} />
+              </a>
             </li>
             <li>
-              <AiOutlineMail size={35} />
+              <a href="mailto:heyvitoria.lopes@gmail.com" target="_blank">
+                <AiOutlineMail size={35} />
+              </a>
             </li>
           </ul>
         </nav>

@@ -10,7 +10,10 @@ const Contacts: React.FC = () => {
           LetUsTalk
         <span> /&#62;</span>
       </h2>
-      <p>Web developer and aspiring UI/UX designer based in São Paulo, Brazil.</p>
+      <p>
+        I’m always available to know new opportunities. <br/>
+        Connect with me and let’s make great things together.
+      </p>
 
       <ul>
         <UlItem
@@ -18,7 +21,7 @@ const Contacts: React.FC = () => {
           transition={{ duration: 0.1 }}
           color={theme.colors.color1}
         >
-          < a href="https://www.linkedin.com/in/vitorialopesdiogo/" target="_blank">
+          <a href="https://www.linkedin.com/in/vitorialopesdiogo/" target="_blank">
             <AiFillLinkedin size={64} />
           </a>
         </UlItem>

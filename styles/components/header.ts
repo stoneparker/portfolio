@@ -30,6 +30,9 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
+  }
+
+  main nav ul li a {
     color: ${({ theme }) => theme.colors.background};
   }
 
@@ -66,7 +69,7 @@ export const Container = styled.div`
       width: 35%;
     }
 
-    main nav ul {
+    main nav ul li a {
       color: ${({ theme }) => theme.colors.text};
     }
 
