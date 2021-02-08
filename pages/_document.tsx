@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-          <title>Vitória Lopes 💜</title>
+          <title>Vitória Lopes - Developer</title>
           <link
             href="https://fonts.gstatic.com"
             rel="preconnect"
@@ -42,6 +42,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Share+Tech+Mono&display=swap"
             rel="stylesheet"
           />
+          <link rel="icon" href="https://static.wixstatic.com/shapes/56096f_886b1512b3364b06b7a2ae74de044b25.svg" />
         </Head>
         <body>
           <Main />
