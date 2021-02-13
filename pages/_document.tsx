@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-          <title>Vitória Lopes - Developer</title>
+          {/* <title>Vitória Lopes</title> */}
           <link
             href="https://fonts.gstatic.com"
             rel="preconnect"

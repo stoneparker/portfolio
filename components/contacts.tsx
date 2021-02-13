@@ -12,7 +12,7 @@ const Contacts: React.FC = () => {
       </h2>
       <p>
         I’m always available to know new opportunities. <br/>
-        Connect with me and let’s make great things together.
+        Connect with me and let’s make wonder things together.
       </p>
 
       <ul>
