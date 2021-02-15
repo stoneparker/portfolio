@@ -1,23 +1,22 @@
-import { Container, Slider, ProjectCard } from '../styles/components/projects';
+import ProjectCard from './projectCard';
+import { Container, Slider } from '../styles/components/projects';
+
+import projects from '../constants/projects';
 
 const Projects: React.FC = () => {
-  const projects = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   return (
     <Container>
-      <h2>
-        <span>&#60;</span>
-          WhatIHaveBuilting
-        <span> /&#62;</span>
-      </h2>
+      <div>
+        <h2>
+          <span>&#60;</span>
+            WhatIHaveBuilt
+          <span> /&#62;</span>
+        </h2>
+      </div>
 
       <Slider>
         { projects.map((item) => (
-          <ProjectCard
-            key={item}
-            show={item == 1 || item == 4}
-          >
-            project
-          </ProjectCard>
+          <ProjectCard key={item._id} data={item} />
         ))}
       </Slider>
     </Container>

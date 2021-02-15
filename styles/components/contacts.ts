@@ -10,8 +10,14 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
 
+  background-color: ${({ theme }) => theme.colors.text};
+
   span {
     color: ${({ theme }) => theme.colors.color2};
+  }
+
+  h2, p {
+    color: ${({ theme }) => theme.colors.background};
   }
 
   p {
