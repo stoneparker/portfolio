@@ -30,6 +30,17 @@ export default createGlobalStyle`
     margin-bottom: 70px;
   }
 
+::-webkit-scrollbar {
+  background-color: ${({ theme }) => theme.colors.text};
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: ${({ theme }) => theme.colors.background};
+  border-radius: 10px;
+  border: 3px solid ${({ theme }) => theme.colors.text};
+}
+
   @media (max-width: 900px) {
     html {
       font-size: 26px;
