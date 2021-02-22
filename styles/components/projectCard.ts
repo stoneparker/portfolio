@@ -9,8 +9,8 @@ export const Container = styled.article`
   margin: 0 10px;
   border-radius: 9px;
   overflow: hidden;
-  transition: transform 0.7s;
-  cursor: default;
+  transition: transform .3s ease;
+  /* cursor: default; */
 
   h3 {
     color: ${({ theme }) => theme.colors.background};
