@@ -10,6 +10,10 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
 
+  h2 {
+    margin-left: 50px;
+  }
+
   h2 span {
     color: ${({ theme }) =>  theme.colors.color1};
   }

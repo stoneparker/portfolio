@@ -32,6 +32,18 @@ export const Container = styled.div`
     flex-direction: row;
   }
 
+  .a-btn {
+    border: 5px solid #000;
+    padding: 17px 30px;
+    border-image: linear-gradient(to right, #FF5FB1, #6BE2DB, #87DA94);
+    border-image-slice: 1;
+
+    color: ${({ theme }) => theme.colors.background};
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
+
   @media (max-width: 900px) {
     p {
       max-width: 90%;

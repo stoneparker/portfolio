@@ -38,7 +38,7 @@ export default createGlobalStyle`
 ::-webkit-scrollbar-thumb {
   background: ${({ theme }) => theme.colors.background};
   border-radius: 10px;
-  border: 3px solid ${({ theme }) => theme.colors.text};
+  border: 4px solid ${({ theme }) => theme.colors.text};
 }
 
   @media (max-width: 900px) {

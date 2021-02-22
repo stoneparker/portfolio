@@ -44,7 +44,7 @@ const Contacts: React.FC = () => {
           </a>
         </UlItem>
       </ul>
-      <a href="https://56096fb5-aca8-4a02-901b-5150a5cb8e81.usrfiles.com/ugd/56096f_b347fcbd2d9f4c60bece129f1504ca46.pdf" download target="_blank">Click to download</a>
+      <a className="a-btn" href="https://56096fb5-aca8-4a02-901b-5150a5cb8e81.usrfiles.com/ugd/56096f_b347fcbd2d9f4c60bece129f1504ca46.pdf" download target="_blank">download my resume</a>
     </Container>
   )
 }
