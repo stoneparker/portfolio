@@ -12,9 +12,17 @@ export const Container = styled.article`
   transition: transform .3s ease;
   /* cursor: default; */
 
+  section {
+    padding: 15px 10px;
+  }
+
   h3 {
     color: ${({ theme }) => theme.colors.background};
     font-size: 0.6rem;
+  }
+
+  div#links a:first-child {
+    margin-right: 7px;
   }
 
   header {
@@ -25,6 +33,13 @@ export const Container = styled.article`
 
   &:hover {
     transform: scale(1.1);
+  }
+
+  p {
+    color: #868686;
+    font-size: 0.4rem;
+    width: 100%;
+    white-space: normal;
   }
 `;
 

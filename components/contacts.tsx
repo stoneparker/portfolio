@@ -7,7 +7,7 @@ const Contacts: React.FC = () => {
     <Container>
       <h2>
         <span>&#60;</span>
-          LetUsTalk
+          LetsTalk
         <span> /&#62;</span>
       </h2>
       <p>

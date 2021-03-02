@@ -42,6 +42,7 @@ export const Container = styled.div`
     text-decoration: none;
     text-transform: uppercase;
     font-size: 0.7rem;
+    margin-top: 40px;
   }
 
   @media (max-width: 900px) {
